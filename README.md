@@ -70,11 +70,11 @@ void loop() {
     Serial.println(receivedChar);
 
     if (receivedChar == 'f') {
-      myServo.write(90);  // Forward
+      myServo.write(180);  // Forward
     } else if (receivedChar == 's') {
-      myServo.write(0);   // Stop
+      myServo.write(90);   // Stop
     } else if (receivedChar == 'b') {
-      myServo.write(180); // Backward
+      myServo.write(0); // Backward
     }
   }
 }
