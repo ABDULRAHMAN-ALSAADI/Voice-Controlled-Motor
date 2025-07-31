@@ -3,6 +3,10 @@
 This project demonstrates how to control a servo motor connected to an ESP32 using voice commands through a Python script.
 It uses local speech recognition and serial communication to interpret commands like forward, backward, and stop.
 
+### 📝 Note:
+This project was originally intended to control a brushless motor.
+However, due to the unavailability of both the brushless motor and the ESC (Electronic Speed Controller), a servo motor was used instead to demonstrate the core concept of voice-controlled motor actuation.
+
 ## 🚀 Features
 
 - 🎙️ Voice-controlled operation (no cloud APIs)
